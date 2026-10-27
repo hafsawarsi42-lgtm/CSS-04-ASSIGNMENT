@@ -1,0 +1,536 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+ }
+ /* header start */
+ header{
+    background-color: rgba(0, 0, 0, 0.479);
+    height: 70px;
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+     position: fixed;   
+}
+    
+    .name{
+    color: white;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+h1{
+    word-spacing: 10px;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* header links start */
+ .header-links{
+    display: flex;
+    align-items:center ;
+     gap: 5px;
+ }
+ .header-links a {
+    padding-left:80px;
+    font-family: sans-serif;
+    color:rgba(255, 255, 255, 0.774);
+    text-decoration: none;
+ }
+.header-links a:hover {
+    color:white
+ }
+
+/* header links end */
+    /* header ends */
+ 
+ /* home start */
+.home-section{
+    background-image: linear-gradient(rgba(24, 23, 23, 0.315), rgba(0, 0, 0, 0.301)),url("./assests/images/lobby-image.png.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-attachment:scroll;
+}
+.first-section-h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif
+
+}
+.home-content p{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    padding-top: 10px;
+    font-weight: lighter;
+
+}
+
+
+
+.home-button{
+    display: inline-block;
+    height: 60px;
+    width: 170px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: black;
+}
+/* home end */
+/* about section start */
+.about-section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(24, 23, 23, 0.315), rgba(0, 0, 0, 0.301)), url("./assests/images/about-us.png.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.second-section-h2 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.first-card,
+.second-card {
+    width: 390px;
+    min-height: 530px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.first-card p,
+.second-card p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+}
+/*/// about section end// */
+
+ /* /// services section/// */
+ .service-section
+{
+     min-height: 100vh;
+    background-image:linear-gradient(rgba(24, 23, 23, 0.315), rgba(0, 0, 0, 0.301)), url(./assests/images/services.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.third-section-h2{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    letter-spacing: 7px;
+
+
+}
+.services-p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top:16px ;
+    color:white;
+    text-align: center;
+}
+.services-icon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 110px;
+}
+
+.service-box {
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.service-box i {
+    font-size: 50px;
+    margin-bottom: 25px;
+    
+}
+
+.icons-h3 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.icon-p {
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.75);
+}
+/* //services section end // */
+
+/* gallery section start */
+.gallery-content{
+min-height: 100vh;
+background-image:linear-gradient(rgba(24, 23, 23, 0.315), rgba(0, 0, 0, 0.301)), url(./assests/images/gallery.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    box-sizing: border-box;
+
+}
+.fourth-section-h2{
+     color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    letter-spacing: 7px;
+
+}
+.gallery-p{
+ font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top:16px ;
+    color:rgba(255, 255, 255, 0.705);
+    text-align: center;
+}
+.our-work {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.works h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.works p {
+    font-size: 14px;
+    margin: 0;
+    color:rgba(255, 255, 255, 0.705);
+}
+/* gallery section end */
+
+/* contact section start*/
+.contact-content{
+    background-image:linear-gradient(rgba(24, 23, 23, 0.315), rgba(0, 0, 0, 0.301)), url(./assests/images/contact-page.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.fifth-section-h2{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    letter-spacing: 7px;
+
+}
+.contact-p{
+ font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-top:16px ;
+    color:rgba(255, 255, 255, 0.705);
+    text-align: center;
+}
+    .form-contact {
+    width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-contact input,
+.form-contact textarea {
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.send-message {
+    width: 170px;
+    padding: 15px;
+    margin: auto;
+    background-color:transparent;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+     border: 1px solid white;
+}
+
+
+.send-message:hover {
+    background-color: white;
+    color: black;}
+
+/* contact section end*/
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    height: 70px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+/* footer end */
+
+.menu-icon {
+    display: none;
+}
+
+
+/* RESPONSIVE DESIGN START */
+@media (max-width: 768px) {
+
+    header {
+        padding: 0 15px;
+    }
+
+    .name {
+        padding: 0;
+        margin-right: auto;
+    }
+
+    .name h1 {
+        font-size: 18px;
+        word-spacing: 3px;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .header-links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 180px;
+        background-color: black;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    header div:hover .header-links {
+        display: flex;
+    }
+
+    .header-links a {
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .first-section-h1 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 13px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        padding: 10px;
+    }
+
+    .second-section-h2,
+    .third-section-h2,
+    .fourth-section-h2,
+    .fifth-section-h2 {
+        font-size: 32px;
+        margin-top: 70px;
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+    }
+
+    .about-cards {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .first-card,
+    .second-card {
+        width: 100%;
+        max-width: 390px;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .services-icon {
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-top: 50px;
+    }
+
+    .service-box {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .our-work {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .works {
+        width: 100%;
+    }
+
+    .form-contact {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .contact-content,
+    .gallery-content,
+    .about-section,
+    .service-section {
+        padding: 30px 15px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 25px 10px;
+        font-size: 12px;
+    }
+
+}
+
+/* SMALL MOBILE SCREEN */
+
+@media (max-width: 480px) {
+
+    .name h1 {
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+
+    .first-section-h1 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .second-section-h2,
+    .third-section-h2,
+    .fourth-section-h2,
+    .fifth-section-h2 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    .first-card p,
+    .second-card p {
+        font-size: 14px;
+        line-height: 1.7;
+     
+    }
+
+    .gallery-p,
+    .contact-p,
+    .services-p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .our-work {
+        gap: 25px;
+    }
+
+    .works h2 {
+        font-size: 28px;
+    }
+
+    .home-button {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+}
+
+/* RESPONSIVE DESIGN END */
